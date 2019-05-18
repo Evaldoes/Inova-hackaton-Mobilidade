@@ -1,0 +1,46 @@
+.bnt, input[type="submit"] {
+	background: url("../resources/img/fundoBotao.gif") repeat-x scroll 0 0
+	#2A2A2A;
+	border: 1px solid #272727;
+	text-shadow: 1px 1px 0 #000000;
+	-moz-border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 3px;
+	margin-top: 13px;
+	width: 75px;
+}
+.blocoImgLogin{
+
+	width: 70px;
+	border-radius: 11px;
+}
+
+.blocoLogin{
+
+	border: groove;
+	width: 60%;
+	display: table-cell;
+	margin-top: 63px;
+}
+
+.container{
+	text-align: -webkit-center;
+}
+.blocoFormAuxPosiion{
+	width: 20%px;
+}
+.blocoFormInput{
+	text-align: -webkit-left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.campoInput{
+	text-align: -webkit-left;
+	width: 100%;
+}
+
+.b1ocoAux{
+	width: 20%;
+	display: table-cell;
+}

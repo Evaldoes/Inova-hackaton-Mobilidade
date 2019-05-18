@@ -1,0 +1,104 @@
+
+.form-group {
+	display: table-row;
+	text-align: -webkit-center;
+}
+
+.formPesqSats{
+	width: auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding: 10px 15px;
+	text-align: -webkit-center;
+}
+
+input[type="submit"] {
+	background: url("../resources/img/fundo_botao.gif") repeat-x scroll 0 0
+	#2A2A2A;
+	border: 1px solid #272727;
+	text-shadow: 1px 1px 0 #000000;
+	-moz-border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 3px;
+	margin-top: 13px;
+	width: 75px;
+}
+
+.imgLogoCetam {
+	width: 110px;
+}
+.imgLogoGovAm{
+	    width: 110px;
+vertical-align: text-top;
+}
+.container {
+	/* margin: auto; */
+	margin-top: 0px;
+	width: 100%;
+text-align: -webkit-center;
+}
+
+
+.table{
+	font-size: 20px;
+}
+.inputFormPesqSats {
+	width: 35px;
+}
+h1 {
+	font-size: 20px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+	    font-size: 17px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.radio-inline{
+	width: 25px;
+}
+.csInputForm{
+	background-color: transparent;
+	    border: none;
+			    cursor: none;
+}
+.inputFormNota{
+	width: 20px;
+	border: none;
+	background-color: springgreen;
+	border-radius: 11px;
+	text-align: center;
+
+}
+.blocoInfo{
+	text-align: -webkit-center;
+    cursor: none;
+    margin-bottom: 10px;
+}
+label{
+	cursor: none;
+}
+#idIdCurso{
+display: none;
+}
+.col-md-4{
+	display: table-cell;
+}
+. blcoFormCabecalho{
+	width: 100%;
+}
+.rowCabecalho1{
+	display: table-row;
+	width: 100%;
+
+
+}
+
+.colMdAuxi{
+	font-size: small;
+	padding: 1px;
+	display: table-cell;
+	vertical-align: middle;
+}

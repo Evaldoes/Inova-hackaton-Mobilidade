@@ -1,0 +1,19 @@
+
+
+/* RODAPE */
+
+
+footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 30px;
+
+	color: #F2FFFC;
+	padding: 7px;
+	clear: both;
+	background-color: #00496d;
+}
+/* FIM RODAPE */

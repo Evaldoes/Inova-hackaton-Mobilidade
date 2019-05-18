@@ -1,0 +1,258 @@
+/*GERAL*/
+
+
+html,body{
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+}
+
+.navbar-default {
+    background-color: rgba(117, 115, 115, 0.9);
+}
+
+header li{
+    width: 20%;
+    font-size: 20px;
+}
+
+header a{
+    color: white !important;
+}
+
+main{
+    margin-top: 10px;
+    position: relative;
+}
+
+footer{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+footer h3{
+    margin-top: 0;
+}
+
+footer address{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+
+
+/*index.html*/
+
+.inicial{
+    height: 100%;
+    position: relative;
+}
+
+.inicial h1{
+    font-size: 80px;
+    float: left;
+    position: absolute;
+    bottom: 35%;
+    margin-left: 130px;
+    -webkit-animation: surgeTexto 1.5s ease-in-out;
+    animation: surgeTexto 1.5s ease-in-out;
+    z-index: 2;
+}
+
+@-webkit-keyframes surgeTexto
+{
+    0%
+    {
+        transform: translateX(-200%);
+    }
+}
+
+@keyframes surgeTexto
+{
+    0%
+    {
+        transform: translateX(-200%);
+    }
+}
+
+.inicial img{
+    width: 50%;
+    float: right;
+    margin-right: 100px;
+    -webkit-animation: surgeImagem 2.5s ease-in-out;
+    animation: surgeImagem 2.5s ease-in-out;
+    z-index: 1;
+}
+
+@-webkit-keyframes surgeImagem
+{
+    0%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes surgeImagem
+{
+    0%
+    {
+        opacity: 0;
+    }
+}
+
+@media(min-width: 768px){
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 50%;
+        position: relative;
+        left: 6%;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.wrapper-carousel{
+    width: 100%;
+    background-color: rgba(45, 45, 45, 0.21);
+    padding: 14px;
+}
+
+.carousel{
+    width: 55%;
+/*    position: absolute;*/
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.carousel-inner img{
+    width: 25%;
+}
+
+.carousel-caption h2{
+    background-color: rgba(200,200,200,0.6);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+/*equipe.html*/
+
+.equipe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.equipe h2{
+    font-weight: 700;
+}
+
+.row img{
+    border-radius: 70px;
+    margin-top: 20px;
+    width: 139px;
+}
+
+.thumbnail{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    background-color: rgba(200,200,200,0.1);
+    height: 338.4px;
+}
+
+.thumbnail .caption{
+    padding-top: 0px;
+}
+
+figcaption h3{
+    text-align: center;
+}
+
+figcaption p{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/*contato.html*/
+
+.contato{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contato input{
+    width: 200px;
+}
+
+.contato h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.contato label{
+    font-size: 17px;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+label[for="comentario"]{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: auto;
+}
+
+label[id="receberEmails"]{
+    width: auto;
+}
+
+.contato textarea{
+    overflow: hidden;
+}
+
+.enviar{
+    background-color: rgba(200,200,200,0.3);
+    width: 80px;
+}
+
+.contato h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+label[for="receberSim"], label[for="receberNao"]{
+    font-weight: normal;
+    margin-left: 3px;
+    text-align: left;
+    width: 30px;
+}
+
+input[type="radio"]{
+    width: auto;
+}

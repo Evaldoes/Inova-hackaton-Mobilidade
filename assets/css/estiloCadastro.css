@@ -1,0 +1,57 @@
+
+
+section{
+		margin-left: 550px;
+		margin-top: 200px;
+		position:center;
+		width: auto;
+		height: auto;
+		background-color: #fff;
+		box-sizing: border-box;
+		padding left: 5px;
+}
+
+.formulario{
+		margin-left: 250px;
+		margin-top: 15px;
+		position:center;
+		
+		width: auto;
+		height: auto;
+		background-color: #7fffd4;
+		box-sizing: border-box;
+		padding left: 10px;
+}
+
+.btnsalvar{
+	margin-left: 35px;
+	margin-top: 10px;
+
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ddd;
+}
+
+.btnlimpar{
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ddd;
+}
+
+.campo{
+	width: 300px;
+	height: 35px;
+	border: 1px solid #ddd;
+	margin-top: 5px;
+}
+
+form{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+h1{
+	margin-left: 260px;
+}
