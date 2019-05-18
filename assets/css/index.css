@@ -67,3 +67,33 @@ display: block;
 .blocoMain{
   height: 351px;
 }
+
+.conteiner-inicio{
+  background: url(../img/viaturas.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.filtro{
+  display: flex;
+  height: 100%;
+  background: linear-gradient(53deg,rgba(0, 0, 0, 0.89),rgba(171, 192, 0, 0.74));
+}
+
+.bkg-inicio{
+  width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
