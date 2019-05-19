@@ -44,3 +44,67 @@
 	width: 20%;
 	display: table-cell;
 }
+
+.botao-2{
+    top: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 100px;
+    height: 40px;
+    background: #d5d628;	
+	border-radius: 7px;
+	border: none;
+}
+
+.titulo-login{
+    color: #797575;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+    transform: translate(-50%, 50%)
+}
+
+.cadastre{
+	width: 100%;
+	height: 40px;
+    position: relative;
+    float: left;
+    top: 38%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+
+.cadastre-se{
+	color: black;
+	text-decoration:none;
+}
+
+.titulo-cadastro{
+    color: #797575;
+    font-size: 20px;
+    position: relative;
+    left: 21%;
+    transform: translate(-50%, 50%)
+}
+
+.google-botao{
+	top: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 100px;
+    height: 40px;
+    background: red;	
+	border-radius: 7px;
+	border: none;
+
+}
+
+.logo-report{
+	color: white;
+    left: 55%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}

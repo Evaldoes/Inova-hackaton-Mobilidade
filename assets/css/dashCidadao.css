@@ -1,0 +1,255 @@
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+}
+
+th{
+    border: 1px solid #dddddd;
+    background-color: #0092ca;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+}
+
+table {
+    position: relative;
+    float: left;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    top: 30px;
+}   
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    
+}
+
+.nome-paciente{
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #212529;
+    position: relative;
+    float: left;
+    width: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.check-list{
+    color: green;
+    position: relative;
+    top: 5px;
+    font-size: 25px
+}
+
+.categoria-grid{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    float: left;
+    border-radius: 7px;
+}
+
+.box-categoria{    
+    float: left;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+}
+
+.box-nav{
+    width: 100%;
+    height: 60px;
+    background-color: #d5d628;
+    border-radius: 7px 7px 0 0;
+}
+
+.box-ocorrencia{    
+    float: left;
+    width: 100%;
+    height: 15%;
+    position: relative;
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+}
+
+
+.ocorrencia{    
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    float: left;
+    border-radius: 7px;
+
+}
+
+.ocorr-resolvida{
+    border: 3px solid green;
+    position: relative;
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.ocorr-nao-resolvida{
+    border: 3px solid red;
+    position: relative;
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.pesquisa{
+    width: 50%;
+    height: 40px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+#divBusca{
+    width: 50%;
+    top: 29%;
+    position: relative;
+    height: 30px;
+    left: 25px;
+    border-bottom: 2px solid red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+   
+  
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #d5d628;
+}
+
+#txtBusca:hover{
+    background: white;
+}
+
+.nav-icon{
+    position: relative;
+    display: flex;
+    float: right;
+    padding-right: 6px;
+    font-size: 28px;
+    justify-content: space-evenly;
+    width: 128px;
+    top: 12px;
+}    
+
+
+.text{
+    color: black;
+}
+
+
+.date{
+    font-weight: bold;
+}
+
+.dados{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly
+}
+
+.span-chato{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.box-foot{
+    background-color: #e0e0e0;
+    position: relative;
+    z-index: 55;
+    top: 470px;
+    width: 100%;
+    height: 60px;
+    border-radius: 0 0 13px 13px;
+}
+
+.green{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    position: relative;
+    top: 25%;
+    float: left;
+}
+
+
+.red{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    top: 25%;
+    float: left;
+}
+
+.bolinhas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.form-cad-chato{
+    width: 90%;
+    height: 90%;
+    border: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    position: relative;
+    left: 50%;
+    top: 41%;
+    float: left;
+    transform: translate(-50%,-50%);
+}
